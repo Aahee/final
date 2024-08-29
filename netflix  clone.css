@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(BD-en-20240617-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.nav {
+    /* background-color: brown; */
+    max-width: 60vw;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+}
+
+nav img {
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.64;
+    background-color: black;
+}
+
+.text1 {
+    font-family: 'open sans', sans-serif, 'poppins';
+    height: calc(100% - 92px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 18px;
+    padding: 0 30px;
+}
+
+.text1> :first-child {
+
+    font-size: 48px;
+    font-weight: 900;
+
+    text-align: center;
+
+}
+
+.text1> :nth-child(2) {
+
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.text1> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.btn {
+    padding: 6px 18px;
+    font-weight: bold;
+    background-color: rgba(44, 44, 44, .5);
+    color: white;
+    border-style: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.red-btn1 {
+
+    background-color: red;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.red-btn2 {
+    background-color: red;
+    padding: 8px 24px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.inm {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.in {
+    color: white;
+    padding: 13px 64px;
+    font-size: 11px;
+
+    border-radius: 3px;
+    font-weight: bolder;
+    border: 1px solid grey;
+    background-color: rgba(44, 44, 44, .5);
+}
+
+.line {
+    height: 6px;
+    background-color: rgb(53, 53, 53);
+}
+
+.first {
+
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+@media screen and (max-width:1000px) {
+    .first{
+        flex-wrap: wrap;
+        padding: 43px;
+        margin: auto;
+        text-align: center;
+    }
+    
+}
+
+.secimg {
+    /* transform: translateY(0px)
+    translateX(220px); */
+    position: relative;
+
+}
+
+.secimg img {
+    width: 600px;
+    position: relative;
+    z-index:
+        10;
+    /* max-width: 32vw; */
+}
+
+.secimg video {
+    width: 530px;
+    height: 350px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+
+    /* transform: translatex(-560px)
+    translateY(100px);
+    object-fit: ; */
+}
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: 'open sans';
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: 'open sans';
+}
+
+.line {
+    height: 4px;
+    background-color: rgb(53, 53, 53);
+}
+
+.line3 {
+    height: 4px;
+    background-color: rgb(53, 53, 53);
+}
+
+.first-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    margin: auto;
+}
+
+.first-third>div :first-child {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: 'open sans';
+}
+
+.first-third>div :nth-child(2) {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: 'open sans';
+}
+
+.first-third>div :nth-child(3) {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: 'open sans';
+}
+
+.first-third>div :nth-child(4) {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: 'open sans';
+}
+
+
+.first-third>div :nth-child(5) {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: 'open sans';
+}
+
+
+.line5 {
+    height: 4px;
+    background-color: rgb(53, 53, 53);
+}
+
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'open sans';
+    color: white;
+    gap: 25px;
+
+}
+
+.mainfaq {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* @media screen and (max-width: 1300px) {
+    .faqbox{
+        width: 100px;
+     
+    }
+    
+} */
+
+.faqbox {
+    display: flex;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1100px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    /* gap: 20px; */
+}
+
+.one {
+    color: white;
+
+
+}
+
+/* .faqs2{
+    display: flex;
+    color: white;
+    background-color: rgb(53, 53, 53) ;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: space-between;
+    padding: auto;
+    width: 1100px;
+    cursor: pointer;
+    /* gap: 20px; */
+/*     
+} */
+
+.faqbox:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+/* .faqs2:hover{
+    background-color: gray;
+} */
+
+
+
+
+
+
+
+
+
+/* div > .first third{
+    color: rgb(150, 22, 22);
+display: flex;
+
+} */
+
+
+
+.line4 {
+    height: 4px;
+    background-color: rgb(53, 53, 53);
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+
+}
+
+.footerlinks {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 60px;
+}
+
+.footerlinks2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 90px;
+}
+
+.footerlinks3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 90px;
+}
+
+.footerlinks4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 95px;
+}
+
+@media screen and (max-width: 1000px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 35px;
+    }
+
+}
+
+a {
+    color: rgb(192, 190, 190);
+    font-weight: 400;
+    padding: 8px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sect1{
+    font-family: 'Open Sans' ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    /* transform: translateY(-50px)
+     translateX(-100px); */
+
+/* }
+.sect2{
+    font-family: 'Open Sans';
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400; */
+/* transform: translateY(-50px)
+    translateX(-100px);  */
+
+/* .sect3{
+    font-family: 'Open Sans';
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+     /* transform: translateY(-100px) */
+/* transform:  translateY(-15px)
+   translateX(-100px);  */
+
+
+
+
+
+/* .sss1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Open Sans';
+
+}
+
+.sss2{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Open Sans';
+    
+} */
